@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Me</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Roboto+Condensed&display=swap');
+    .sidebar{
+        text-align: center;
+            width: 20vw;
+            background-image: url(https://img.freepik.com/premium-vector/abstract-technology-white-gray-color-modern-background-design_41981-1677.jpg);
+        margin-right: 10px auto;
+        margin-left: 10px;
+        font-family: 'Fira Sans', sans-serif;
+        height: 550px;
+    }
+        .sidebar nav{
+            padding: 72px;
+        }
+        .sidebar nav li{
+            text-align: center;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            list-style: none;
+            font-size: 20px;
+        }
+        .sidebar nav li a{
+            text-decoration: none;
+            color: black;
+        }
+        .main{
+            
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+            text-align: center;
+            align-items: center;
+            background-image: url(https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?w=2000);
+            width: 80vw;
+        }
+        .container{
+            display: flex;
+        }
+        .infoContainer{
+            text-align: center;
+            align-items: center;
+            background-image: url(https://down2earthinteriordesign.com/wp-content/uploads/2013/12/portfolio-background-01.jpg);
+            margin: 80px auto;
+            margin-top: 90px;
+            display: flex;
+            width: 50vw;
+            height: 58vh;
+            justify-content: space-around;
+        }
+        .devInfo{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .btn{
+          border-radius: 20px; 
+        }
+        .btn a{
+            text-decoration: none;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/portfolio/home.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/service.html">Service</a></li>
+                </ul>
+            </nav>
+        </div>
+       
+        <div class="main">
+            <h1>Contact Me</h1>
+            <h6>*********</h6>
+            <h3>I'll be Glad to Answer Your Questions </h3><br><br>
+            <input type="text" placeholder="Name" required><br><br>
+            <input type="Email" placeholder="Email Id"required pattern="(?=.*\d)(?=.*[@]"><br><br>
+            <input type="Subject" placeholder="Subject"><br><br>
+            <textarea name="Your Message" cols="20" rows="5" placeholder="Your Message"></textarea><br><br>
+            <button class="btn">
+                <a href="\send message">
+                Send Message</a>
+            </button>
+        </div>
+    </div>    
+</body>
+</html>
